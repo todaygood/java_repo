@@ -15,6 +15,8 @@
     Person[]  value();
 }
 
+public @interface Test
+
 /*
 @Repeatable(Persons.class)
 @interface Person{

@@ -2,9 +2,6 @@
  * http://www.runoob.com/java/java-collections.html
  * 
  */
-
-
-
 import java.util.*;
 
 public class StudyList { 

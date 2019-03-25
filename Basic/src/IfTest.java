@@ -1,23 +1,18 @@
-/*
-    ifè¯­å¥æ ¼å¼2çš„ç»ƒä¹ ï¼š
-        A:è·å–ä¸¤ä¸ªæ•°æ®ä¸­è¾ƒå¤§çš„å€¼
-        B:åˆ¤æ–­ä¸€ä¸ªæ•°æ®æ˜¯å¥‡æ•°è¿˜æ˜¯å¶æ•°,å¹¶è¾“å‡ºæ˜¯å¥‡æ•°è¿˜æ˜¯å¶æ•°
-*/  
-import java.util.Scanner;  
+import java.util.Scanner;
 
-class IfTest {  
+public class IfTest {  
     public static void main(String[] args) {  
-        //åˆ›å»ºé”®ç›˜å½•å…¥å¯¹è±¡  
+        //´´½¨¼üÅÌÂ¼Èë¶ÔÏó  
         Scanner sc = new Scanner(System.in);  
 
-        //è·å–ä¸¤ä¸ªæ•°æ®ä¸­è¾ƒå¤§çš„å€¼  
-        System.out.println("è¯·è¾“å…¥ç¬¬ä¸€ä¸ªæ•°æ®ï¼š");  
+        //»ñÈ¡Á½¸öÊı¾İÖĞ½Ï´óµÄÖµ  
+        System.out.println("ÇëÊäÈëµÚÒ»¸öÊı¾İ£º");  
         int a = sc.nextInt();  
 
-        System.out.println("è¯·è¾“å…¥ç¬¬äºŒä¸ªæ•°æ®ï¼š");  
+        System.out.println("ÇëÊäÈëµÚ¶ş¸öÊı¾İ£º");  
         int b = sc.nextInt();  
 
-        //å®šä¹‰ä¸€ä¸ªå˜é‡æ¥æ”¶æœ€å¤§å€¼  
+        //¶¨ÒåÒ»¸ö±äÁ¿½ÓÊÕ×î´óÖµ  
         int max;  
 
         if(a > b) {  
@@ -29,14 +24,18 @@ class IfTest {
         System.out.println("max:"+max);  
         System.out.println("----------------");  
 
-        //åˆ¤æ–­ä¸€ä¸ªæ•°æ®æ˜¯å¥‡æ•°è¿˜æ˜¯å¶æ•°  
-        System.out.println("è¯·è¾“å…¥ä½ è¦åˆ¤æ–­çš„æ•°æ®ï¼š");  
+        //ÅĞ¶ÏÒ»¸öÊı¾İÊÇÆæÊı»¹ÊÇÅ¼Êı  
+        System.out.println("ÇëÊäÈëÄãÒªÅĞ¶ÏµÄÊı¾İ£º");  
         int x = sc.nextInt();  
 
         if(x%2 == 0) {  
-            System.out.println(x+"è¿™ä¸ªæ•°æ®æ˜¯å¶æ•°");  
+            System.out.println(x+"Õâ¸öÊı¾İÊÇÅ¼Êı");  
         }else {  
-            System.out.println(x+"è¿™ä¸ªæ•°æ®æ˜¯å¥‡æ•°");  
+            System.out.println(x+"Õâ¸öÊı¾İÊÇÆæÊı");  
         }  
     }  
 }
+
+
+
+

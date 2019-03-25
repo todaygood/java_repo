@@ -24,7 +24,7 @@ public class DateDemo {
         }
         
 
-        System.out.println(new Date()+"\n");
+        System.out.println("after sleep,time is:" +new Date()+"\n");
 
         Calendar c1 = Calendar.getInstance();
         c1.set(2009,6,12);
