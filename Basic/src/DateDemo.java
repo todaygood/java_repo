@@ -19,7 +19,6 @@ public class DateDemo {
         try {
             Thread.sleep(1000*3);
         } catch (Exception e ) {
-
             System.out.println("Got exception");
         }
         

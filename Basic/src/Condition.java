@@ -4,8 +4,6 @@ public class Condition {
 
     public static void main(String []args) throws IOException{
 
-       
-
         /*
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -14,12 +12,6 @@ public class Condition {
         System.out.println("input is "+ input);
         */
 
-        
-
-
-
-
-        
         int a = 10; 
         if (a < 20 ){
 

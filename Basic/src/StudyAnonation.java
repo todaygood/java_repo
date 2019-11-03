@@ -11,13 +11,15 @@
  * 
  * 注解有什么用？给谁用？给 编译器或者 APT 用的, Annotation Processing Tool
  */
+/*
 @interface Persons {
     Person[]  value();
 }
 
 public @interface Test
 
-/*
+
+
 @Repeatable(Persons.class)
 @interface Person{
     String role default "";
@@ -43,7 +45,6 @@ class Hero {
     public void say(){
         System.out.println("Noting has to say!");
     }
-
 
     public void speak(){
         System.out.println("I have a dream!");

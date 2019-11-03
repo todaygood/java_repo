@@ -10,10 +10,8 @@ java.io:包含了Java输入、输出有关的类和接口。
 # 使用什么IDE? 
 
 小程序使用VS code + Java插件，run和build，语法提示都很全。 
-
+做小程序练习，建议使用Eclipse, 可以把多个小程序文件放在一起，IDE也有语法自动提示。
 大程序，使用Intelij
-
-
 
 # 知识点
 

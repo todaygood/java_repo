@@ -6,21 +6,17 @@ public class IfTest2{
 		System.out.println("please input a value:");
 		
 		int x = sc.nextInt();
+
+		System.out.println("please input second value:");
+		int y = sc.nextInt();
 		
-		int y; 
-		
-		if (x>=3) {
-			y=2*x +1;
-			
-		}else if (x>=-1 && x<3) {
-			
-			y= 2*x;
-		}else {
-			
-			y=2*x-1;
+		if (x > y ){
+			System.out.println("x>y");
 		}
+		else
+			System.out.println("x<y");
 		
-		System.out.println("y=" + y );
+
 		
 	}
 	
