@@ -9,12 +9,12 @@ public class CharacterTest {
         int numberCount = 0;  
 
 
-        Scanner sc = new Scanner(System.in);  
-        System.out.println("请输入一个字符串：");  
-        String line = sc.nextLine();  
+        Scanner sc = new Scanner(System.in);
+        System.out.println("请输入一个字符串：");
+        String line = sc.nextLine();
 
 
-        char[] chs = line.toCharArray();  
+        char[] chs = line.toCharArray();
 
         for (int x = 0; x < chs.length; x++) {  
             char ch = chs[x];  
