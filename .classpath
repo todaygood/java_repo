@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Basic/src"/>
+	<classpathentry kind="src" path="ClassEnter/src"/>
+	<classpathentry kind="src" path="DataStructureEnter/src"/>
+	<classpathentry kind="src" path="DynamicFactory/src"/>
+	<classpathentry kind="src" path="essential-java-demos/src"/>
+	<classpathentry kind="src" path="HelloGson/src/main/java"/>
+	<classpathentry kind="src" path="HelloIdea/src"/>
+	<classpathentry kind="src" path="Http2Example/src/main/java"/>
+	<classpathentry excluding="src/test/java/|src/main/java/" kind="src" path="JedisClient"/>
+	<classpathentry kind="src" path="JedisClient/src/main/java"/>
+	<classpathentry kind="src" path="JedisClient/src/test/java"/>
+	<classpathentry kind="src" path="JedisSentinelTest/src"/>
+	<classpathentry kind="src" path="MysqlJava"/>
+	<classpathentry kind="src" path="StudyFactory/src"/>
+	<classpathentry kind="src" path="StudyJavaIO/src"/>
+	<classpathentry kind="src" path="StudyString/src"/>
+	<classpathentry kind="output" path="Basic/out/production/Basic"/>
+</classpath>

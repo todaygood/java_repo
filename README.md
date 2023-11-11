@@ -1,13 +1,16 @@
 # java_repo
+
 study java technology.
-
-
 
 java.util:包含Java中大量工具类、集合类等，例如Arrays、List、Set等。
 java.net:包含Java网络编程相关的类和接口。
 java.io:包含了Java输入、输出有关的类和接口。
 
-# 使用什么IDE? 
+## doc 
+
+https://docs.oracle.com/en/java/javase/21/index.html
+
+## 使用什么IDE? 
 
 小程序使用VS code + Java插件，run和build，语法提示都很全。 
 做小程序练习，建议使用Eclipse, 可以把多个小程序文件放在一起，IDE也有语法自动提示。
